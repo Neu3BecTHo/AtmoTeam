@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+}
+
+p {
+	margin-left: 5px;
+}
+
+h1, h2 {
+	text-align: center;
+	border-bottom: 1px solid green;
+}
+
+.theme-text {
+	text-align: center;
+}
+
+.page {
+
+}
+
+.section-for-main {
+	height: 50vh;
+	width: 50vw;
+}
+
+.background-for-page-tests {
+	background-color: #177245;
+}
+
+.pink-for-main {
+	background-color: #B960D2;
+}
+
+.green-for-main {
+	background-color: green;
+}
+
+
+.div-main {
+	width: 200px;
+	height: 200px;
+	margin-left: 85%;
+	margin-top:  25%;
+}
+
+.center-for-button {
+	margin-left: 45%;
+	margin-top: 10px;
+}
+
+.div-tests {
+	width: 50px;
+	height: 50px;
+	margin-left:  48%;
+}
+
+.button-center-for-main {
+margin-top: 20%;
+margin-left: 50%;
+}
+
+.image-for-main-page {
+	border-radius: 200px;
+}
+
+.theme {
+	border-radius: 2px;
+}
+
+.message-theme {
+	color: yellow;
+}
+
+.input-center-for-main {
+	margin-left: 50%;
+	margin-top: 10%;
+}
+
+.margin-for-button {
+	margin-top: 10px;
+}
+
+.name {
+
+}
+
+.confirm-name {
+margin-left: 50%;
+margin-top: 10px;
+}
