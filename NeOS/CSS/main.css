@@ -28,15 +28,6 @@ h1, h2 {
 	background-color: #177245;
 }
 
-.pink-for-main {
-	background-color: #B960D2;
-}
-
-.green-for-main {
-	background-color: green;
-}
-
-
 .div-main {
 	width: 200px;
 	height: 200px;
@@ -44,14 +35,9 @@ h1, h2 {
 	margin-top:  25%;
 }
 
-.center-for-button {
-	margin-left: 45%;
-	margin-top: 10px;
-}
-
 .div-tests {
-	width: 50px;
-	height: 50px;
+	width: 200px;
+	height: 200px;
 	margin-left:  48%;
 }
 
@@ -62,14 +48,8 @@ margin-left: 50%;
 
 .image-for-main-page {
 	border-radius: 200px;
-}
-
-.theme {
-	border-radius: 2px;
-}
-
-.message-theme {
-	color: yellow;
+	width: 300px;
+	height: 300px;
 }
 
 .input-center-for-main {
@@ -88,4 +68,8 @@ margin-left: 50%;
 .confirm-name {
 margin-left: 50%;
 margin-top: 10px;
+}
+
+#red_color_for_h5 {
+	color: red;
 }
