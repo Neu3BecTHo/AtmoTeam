@@ -1,0 +1,29 @@
+body {
+	margin: auto 0;
+	background-color: limegreen;
+}
+header {
+	padding-bottom: 2%;
+}
+td {
+	text-align: justify;
+	background-color: palevioletred;
+	border: 1px solid grey;
+}
+table, tr, th {
+	background-color: palevioletred;
+	border: 1px solid grey;
+	text-align: center;
+	margin: auto;
+}
+.table_with_rec {
+	text-align: center;
+}
+.button_in_nav_join {
+	text-align: center;
+	position: fixed;
+	display: inline-flex;
+}
+.button_in_nav_prev {
+
+}
