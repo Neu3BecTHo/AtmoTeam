@@ -50,13 +50,9 @@ h1, h2 {
 	background-color: #d14c45;
 }
 
-.input-center-for-main {
+.input-center {
 	display: block;
 	margin: 5px auto;
-}
-
-.name {
-
 }
 
 #red_color_for_h5 {
