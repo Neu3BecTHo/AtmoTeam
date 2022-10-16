@@ -42,32 +42,26 @@ h1, h2 {
 }
 
 .button-center-for-main {
-margin-top: 20%;
-margin-left: 50%;
+	display: block;
+	margin: 10px auto;
 }
 
-.image-for-main-page {
+.image-center {
 	border-radius: 200px;
 	width: 300px;
 	height: 300px;
+	display: block;
+	margin: auto;
+	background-color: #d14c45;
 }
 
 .input-center-for-main {
-	margin-left: 50%;
-	margin-top: 10%;
-}
-
-.margin-for-button {
-	margin-top: 10px;
+	display: block;
+	margin: 5px auto;
 }
 
 .name {
 
-}
-
-.confirm-name {
-margin-left: 50%;
-margin-top: 10px;
 }
 
 #red_color_for_h5 {

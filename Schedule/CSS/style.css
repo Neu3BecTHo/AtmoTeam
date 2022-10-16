@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    background-color: #0096d9;
+}
+
+table, th, td {
+    border: 1px solid rgb(78, 71, 71);
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #37873e;
+}
+
+button {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 15px;
+    background-color: #498363;
+}
+
+h1 {
+    font-size: 60px;
+    background-color: #009595;
+    color: #008d00;
+}
+
+h2 {
+    text-align: center;
+    color: #e32331;
+}
+
+.center {
+    text-align: center;
+}
