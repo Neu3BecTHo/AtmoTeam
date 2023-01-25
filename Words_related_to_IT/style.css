@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	background-color: #FFE2E2;
+	width: 17%;
+	display: inline-block;
+}
+
+h1 {
+	text-align: center;
+}
