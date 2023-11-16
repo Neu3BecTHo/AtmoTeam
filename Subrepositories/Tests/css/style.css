@@ -1,1 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+main {
+    background: red;
+    width: 80vw;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+aside {
+  width: 20vw;
+  height: 65vh;
+  background: green;
+  position: relative;
+  left: 80vw;
+  display: flex;
+  align-items: center;
+}
+
+header {
+    background: yellow;
+    width: 100vw;
+    height: 15vh;
+}
+
+footer {
+    background: grey;
+    width: 100vw;
+    height: 20vh;
+}
+
+div {
+    background: pink;
+    width: 15vw;
+    height: 15vh;
+}
+
+h3 {
+    font-size: 0.3em;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  margin: auto;
+}
+
+.links {
+  display: flex;
+  height: 30vh;
+  width: 20vw;
+  background: orange;
+  opacity: 0.3;
+  align-items: center;
+}
+
+div h1 {
+  font-size: 5px;
+}
+
+main div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
