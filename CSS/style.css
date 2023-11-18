@@ -10,6 +10,11 @@
   padding: 0;
 }
 
+*::selection {
+  color: #7b0e0e;
+  background: #ff2d2d9b;
+}
+
 h1 {
   font-family: minecraft;
 }
@@ -92,16 +97,23 @@ footer {
   justify-content: center;
   align-items: center;
   opacity: .8;
+  box-shadow: 1vw 1vh 10vw #610c0c;
+}
+
+.card:hover {
+  background-color: #0ec8d09b;
+  color: #f50000;
+  transition: 400ms;
 }
 
 .container a {
   text-decoration: none;
-  color: #c800d27f;
+  color: #f86767;
 }
 
 .card h3 {
   text-align: center;
-  font-size: 1vw;
+  font-size: 2vw;
 }
 
 .production {
@@ -132,4 +144,9 @@ footer {
 .year h3 {
   text-align: center;
   font-size: 4vw;
+}
+
+video {
+  width: 60vw;
+  height: 80vh;
 }
