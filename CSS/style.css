@@ -1,19 +1,135 @@
+@font-face {
+  font-family: minecraft;
+  src: url(../fonts/Minecraft.ttf)
+}
 
-body {
-    margin: 0 auto;
-    background-color: #49852a;
+
+* {
+  overflow-x: hide;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    text-align: center;
+  font-family: minecraft;
 }
 
-button {
-    display: block;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 7px;
-    text-align: center;
-    margin: 5px auto;
-    font-size: 15px;
+h2 {
+  font-family: minecraft;
+}
+
+h3 {
+  font-family: minecraft;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  background: #d5da9b;
+  width: 100vw;
+  height: 10vh;
+  opacity: .8;
+}
+
+main {
+  background: #1edb40;
+  width: 60vw;
+  height: 80vh;
+  float: right;
+  opacity: .8;
+}
+
+aside {
+  background: #8a85d6;
+  height: 80vh;
+  width: 40vw;
+  float: left;
+  opacity: .8;
+}
+
+footer {
+  background: #9f853f;
+  width: 100vw;
+  height: 10vh;
+  float: right;
+  opacity: .8;
+}
+
+.icon {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon h1 {
+  font-size: 4vw;
+}
+
+.Neu3BecTHo {
+  width: 15vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+.card {
+  width: 30vw;
+  height: 5vh;
+  background: #9bdbe1;
+  margin-top: 2vh;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .8;
+}
+
+.container a {
+  text-decoration: none;
+  color: #c800d27f;
+}
+
+.card h3 {
+  text-align: center;
+  font-size: 1vw;
+}
+
+.production {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+}
+
+.production h1 {
+  font-size: 6vw;
+}
+
+.production h2 {
+  font-size: 1vw;
+}
+
+.year {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5vh;
+}
+
+.year h2 {
+  font-size: 4vw;
+}
+
+.year h3 {
+  text-align: center;
+  font-size: 4vw;
 }
